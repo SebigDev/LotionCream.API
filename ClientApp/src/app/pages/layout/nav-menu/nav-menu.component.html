@@ -1,0 +1,26 @@
+
+<header>
+    <div id="top" class="container">
+      <div class="row">
+        <nav class="col-md-12">
+          <div class="col-md-3 col-sm-3 logo-content">  
+            <a [routerLink]="['/']" routerLinkActive="active">
+             SKIN HUB
+            </a>
+          </div>
+          <div class="mini-menu"><i class="fa fa-bars"></i></div>
+          <ul class="col-md-9 col-sm-9 menu">
+            <li class="cl-effect-11"><a data-hover="BLOG" href="#section_blog">Blog</a></li>
+            <li class="cl-effect-11"><a data-hover="CONTACT" href="#section4">Contact</a></li>
+            <li *ngIf="!isloggedin()" class="cl-effect-11"><a data-hover="ACCOUNT" href="#section3" (click)="getAccount()">Account</a></li>
+            <li *ngIf="isloggedin()" class="cl-effect-11" >
+              <span >Welcome! &nbsp;
+               <a href="" style="color: green">{{user?.username}}</a>
+              </span>
+            </li>
+            <li *ngIf="isloggedin()" (click)="logout()"class="cl-effect-11"><a href="">LOGOUT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>

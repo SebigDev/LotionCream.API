@@ -1,0 +1,140 @@
+﻿
+
+@media only screen and (max-width: 770px) 
+{
+.box-text, .box-img {
+	margin-bottom: 20px;
+}
+.portfolio .item {
+	width: 49%;
+}
+.mm-open, .mm-close {
+	left: 43%;
+}
+#email {
+margin-bottom: 20px;
+}
+header nav .menu li {
+	padding: 30px 10px;
+}
+.c-info p {
+	float: left;
+}
+/**Blog**/
+.blog-right-column {
+	padding-left:10px;
+}
+.box-content.right-position {
+	padding: 0 0 100px 0;
+}
+.leave-comment {
+	margin-bottom: 80px;
+}
+}
+
+@media only screen and (max-width: 750px) 
+{
+/***mini menu***/
+header nav .menu {
+	display: none;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.logo-content {
+	text-align: center;
+}
+.mini-menu {
+	display: block;
+}
+.mini-menu i {
+	cursor: pointer;
+}
+header nav .menu li {
+	display: block;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+header nav .menu li:last-child {
+	border-bottom: 1px solid #eee;
+}
+}
+
+@media only screen and (max-width: 730px)
+{
+header nav .menu li {
+    padding: 10px 10px;
+}
+.portfolio .item {
+	width: 100%;
+}
+}
+@media only screen and (max-width: 450px)
+{
+.filter .current a {
+	border-bottom: 0px;
+	line-height: 30px;
+}
+.cl-effect-11 a::before {
+	content: "";
+	border-bottom: 0px;
+}
+
+.group {
+	margin-bottom: 100px;
+}
+.cl-effect-11 a:hover {
+	color: #111;
+}
+/**Blog**/
+.blog-desc span.date-blog {
+	float:left;
+	width: 100%;
+}
+.blog-desc h2 {
+	padding-bottom: 17px;
+}
+.b-mention-item-user.reply-post {
+    padding-left: 0px;
+}
+}
+@media only screen and (max-width: 420px)
+{
+.signature {
+	display: none;
+}  
+.box-text p.slogan {
+	font-size: 30px;
+}
+.mm-open, .mm-close {
+    left: 33%;
+}
+    }
+@media only screen and (max-width: 321px)
+{
+.box-text {
+	padding: 10px 13px 31px;
+}
+h2 {
+	margin-bottom: 20px;
+}
+.cl-effect-11 a {
+	font-size: 12px;
+}
+.grid figure figcaption p {
+	margin: 15% 0 10px 0;
+}
+.box-text p.slogan {
+	display: none;
+}
+.signature {
+	display: none;
+}
+.list-experiences h2 {
+	font-size: 12px;
+	letter-spacing: 0px;
+}
+.mm-open, .mm-close {
+    left: 29%;
+}
+}
